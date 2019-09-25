@@ -3036,6 +3036,9 @@ section {
   margin: 10px 0;
   color: #fff; }
 
+.service_section {
+  overflow: hidden; }
+
 .container_service {
   background-color: #fff;
   max-width: 1024px;
