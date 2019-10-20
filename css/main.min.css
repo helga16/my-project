@@ -2870,6 +2870,9 @@ h1 {
   margin: 0 0 10px 0;
   color: #e38480; }
 
+p {
+  margin: 0; }
+
 a {
   text-decoration: none; }
 
@@ -2929,9 +2932,9 @@ section {
   text-transform: uppercase;
   margin: 0 0 10px 0;
   color: #fff; }
-  @media (max-width: 370px) {
+  @media (max-width: 450px) {
     .header_title {
-      font-size: 1.7rem; } }
+      font-size: 1.8rem; } }
 
 .header_description {
   margin: 20px;
@@ -3054,7 +3057,7 @@ section {
   color: #fff; }
 
 .me {
-  padding-top: 70px;
+  padding-top: 30px;
   background: url("../images/blog.jpg");
   background-position: center;
   text-align: center;
@@ -3066,7 +3069,7 @@ section {
   width: 49%;
   vertical-align: top;
   padding: 30px; }
-  @media (max-width: 610px) {
+  @media (max-width: 630px) {
     .me__item {
       display: block;
       width: 100%;
@@ -3091,7 +3094,7 @@ section {
     .me__image {
       display: block;
       top: -60px;
-      left: -45px; } }
+      left: 15px; } }
 
 .me__frame {
   width: 200px;
@@ -3169,16 +3172,14 @@ section {
   line-height: 1.5; }
 
 .service_calc {
+  padding-left: 20px;
   vertical-align: top;
   display: inline-block;
   width: 58%; }
-  @media (max-width: 1000px) {
-    .service_calc {
-      padding-left: 20px;
-      box-sizing: border-box; } }
-  @media (max-width: 350px) {
+  @media (max-width: 600px) {
     .service_calc {
       display: block;
+      padding-left: 0;
       width: 80%;
       margin: 0 auto; } }
 
@@ -3186,7 +3187,7 @@ section {
   vertical-align: middle;
   display: inline-block;
   width: 40%; }
-  @media (max-width: 350px) {
+  @media (max-width: 600px) {
     .service_bc {
       display: block;
       width: 80%;
@@ -3205,8 +3206,9 @@ section {
 .about_desc {
   vertical-align: top;
   display: inline-block;
-  margin: 30px 0;
-  padding: 0; }
+  margin: 30px auto;
+  padding: 0;
+  text-align: center; }
 
 .about_image {
   margin: 0 auto;
@@ -3330,7 +3332,8 @@ footer {
   margin: 0 auto;
   text-align: left;
   width: 40%;
-  color: #000; }
+  color: #000;
+  height: 400px; }
   @media (max-width: 730px) {
     .contact_form {
       display: none; } }
