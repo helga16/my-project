@@ -3290,6 +3290,10 @@ footer {
   margin-top: 100px;
   padding-top: 170px; }
   @media (max-width: 730px) {
+    background: url("../images/bgFooter.jpg");
+  background-attachment: scroll;
+}
+  @media (max-width: 730px) {
     footer {
       background: #585965;
       padding-top: 0;
