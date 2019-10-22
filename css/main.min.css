@@ -3294,6 +3294,8 @@ footer {
       footer {
        background: url("../images/bgFooter.jpg");
        background-attachment: scroll;
+        background-position: center;
+  background-repeat: no-repeat;
     }
 }
   @media (max-width: 730px) {
